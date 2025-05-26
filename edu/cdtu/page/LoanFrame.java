@@ -13,6 +13,20 @@ import java.awt.event.ItemListener;
 
 public class LoanFrame extends JFrame implements ActionListener
 {
+    //面板
+    private JPanel panel;
+
+    //文字：大标题、用户名、卡号、卡内余额，预计贷款、年利率、每年还款、还清年限、贷款年限
+    private JLabel tittle,currentUser,currentCid,loan,annualRate,repayment,clearTime,loanYears;
+
+    //输入框：用户名、卡号、卡内余额，预计贷款、年利率、每年还款、还清年限
+    private JTextField currentUserField,currentCidField,loanField,annualRateField,repaymentField,clearTimeField;
+
+    //贷款年限下拉框
+    private JComboBox yearComboBox;
+
+    //按钮：清空、确认
+    private JButton resetButton,confirmButton;
 
     public LoanFrame()
     {
