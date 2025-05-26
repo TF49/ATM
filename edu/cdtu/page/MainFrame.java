@@ -10,25 +10,6 @@ import java.awt.event.ActionListener;
 
 public class MainFrame extends JFrame implements ActionListener
 {
-    //主面板
-    private JPanel mainPanel;
-    //大标题
-    private JLabel tittleLabel;
-    //用户名
-    private JButton userButton;
-    //菜单
-    private JButton[] btn;
-    //底部欢迎标语
-    private JLabel welcomeLabel;
-    //存取款窗口
-    private DepositWithdrawFrame depositWithdrawFrame;
-    //定存咨询窗口
-    private FixedDepositFrame fixedDepositFrame;
-    //贷款咨询窗口
-    private LoanFrame loanFrame;
-    //未来资产窗口
-    private FutureAssetsFrame futureAssetsFrame;
-
     public MainFrame()
     {
         //1.设置窗体样式
